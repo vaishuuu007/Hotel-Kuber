@@ -89,10 +89,6 @@ margin-top: 200px;
   .box:hover .scale {
     transform: scale(1.5, 1.5);
   }
-  
-#menu{
-   
-}
 .menu-card{
     background-color: aliceblue;
     border: none;
