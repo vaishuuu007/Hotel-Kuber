@@ -12,21 +12,21 @@ section{
 
 /* navbar */
 .navbar{
-    background-color: transparent #292725;
+    background-color: #ebd8b5;
 }
 .container-fluid{
     margin: 0px 60px;
 }
 .nav-link{
     font-weight: 600;
-    color: rgb(15, 14, 14);
+    color: rgb(253, 243, 243);
 }
 .nav-iten.nav-link{
     transition: 0.5s;
 }
 .nav-item:hover{
     background-color: rgba(240, 248, 255, 0.499);
-    color: rgb(236, 230, 230);
+    color: rgb(14, 13, 13);
     border-radius: 10px;
 }
 .search-btn:hover{
