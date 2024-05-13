@@ -4,20 +4,20 @@ function addtocart() {
   }
   
   function darkmode(){
-      const imgDark = document.getElementById("darks");
+      const imgDark = document.getElementById("dark");
       imgDark.classList.add("active");
   
-      const imgLight = document.getElementById("lights");
+      const imgLight = document.getElementById("light");
       imgLight.classList.remove("active");
   
       const bodyElement = document.getElementById("body");
       bodyElement.className = "dark-theme";
   }
   function lightmode(){
-      const imgDark = document.getElementById("darks");
+      const imgDark = document.getElementById("dark");
       imgDark.classList.remove("active");
   
-      const imgLight = document.getElementById("lights");
+      const imgLight = document.getElementById("light");
       imgLight.classList.add("active");
   
       const bodyElement = document.getElementById("body");
