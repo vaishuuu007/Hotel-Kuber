@@ -33,7 +33,18 @@ section{
     background-color: black;
     color: white;
 }
-
+/* Add a dark theme class to the body */
+.active{
+    border: 1px solid black;
+}
+.theme-dark{
+    background-color: black;
+    color: white;
+}
+.theme-light{
+    background-color: white;
+    color: black;
+}
 
 /* hero */
 
@@ -195,3 +206,11 @@ margin-top: 200px;
     position:relative;
    
 }
+
+
+
+
+
+
+
+
