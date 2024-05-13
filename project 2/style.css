@@ -37,11 +37,11 @@ section{
 .active{
     border: 1px solid black;
 }
-.theme-dark{
+.dark-theme{
     background-color: black;
     color: white;
 }
-.theme-light{
+.light-theme{
     background-color: white;
     color: black;
 }
