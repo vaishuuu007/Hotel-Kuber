@@ -22,10 +22,11 @@
 
   <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container-fluid p-1">
-     <div class="logo">
-      <H3 class="Cafe mb-0 mt-0 py-0" style="position: absolute;left: 88px; color: rgb(219, 194, 101); font-weight: 600;">Hotel</H3>
-      <H1 class=" mb-0 mt-3" style="font-weight: 600;  font-family: Verdana, Geneva, Tahoma, sans-serif;">Kuber</H1>
-     </div>
+      <div class="logo">
+        <H3 class="Cafe mb-0 mt-0 py-0"
+          style="position: absolute;left: 88px; color: rgb(219, 194, 101); font-weight: 600;">Hotel</H3>
+        <H1 class=" mb-0 mt-3" style="font-weight: 600;  font-family: Verdana, Geneva, Tahoma, sans-serif;">Kuber</H1>
+      </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="False" aria-label="Toggle navigation">
         <span> <i class="fa-solid fa-bars" style="color: white; size: 20px;"></i></span>
@@ -33,17 +34,17 @@
       <div class="collapse navbar-collapse mx-4" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item mx-1">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item mx-1">
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item mx-1">
-            <a class="nav-link" href="#menu">Menu</a>
+            <a class="nav-link" href="menu.html">Menu</a>
           </li>
-    
+
           <li class="nav-item mx-1">
-            <a class="nav-link" href="#gallary">Our services</a>
+            <a class="nav-link" href="Ourservices.html">Our services</a>
           </li>
           <li class="nav-item mx-1">
             <a class="nav-link" href="contact.html">Contact</a>
@@ -57,12 +58,14 @@
           <button class=" search-btn btn btn-outline-light" type="submit">Search</button>
         </form>
         <div>
-          <img src="./imgs/moon.jpeg" height="20" class="theme-icon" id="dark" onclick="darkmode()" />
-          <img src="./imgs/day-mode.jpeg" height="20" class="theme-icon" id="light" onclick="lightmode()" />
+          <img src="./imgs/moon.jpeg" height="20" style="margin: 5px; cursor: pointer;" class="theme-icon dark-theme"
+            id="dark" onclick="darkmode()" />
+          <img src="./imgs/day-mode.jpeg" height="20" style="margin: 5px; cursor: pointer;"
+            class="theme-icon light-theme" id="light" onclick="lightmode()" />
         </div>
       </div>
-  
-      </div>
+    </div>
+    </div>
     </div>
   </nav>
 
