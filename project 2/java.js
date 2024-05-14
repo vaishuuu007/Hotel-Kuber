@@ -30,7 +30,7 @@ function addtocart() {
     const phone = document.getElementById("phone").value;
   
     if (name && email && phone != '') {
-      alert("Sumbited Successfully")
+      alert("wait for a while..")
     }
     else {
       alert("Please fill all required fields")
