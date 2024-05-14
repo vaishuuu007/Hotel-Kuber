@@ -41,7 +41,7 @@ function addtocart() {
   function order(){
 
  let orderList = document.getElementById("order");
-    orderList = document.URL('C:\Users\shahaji waditke\Desktop\sunshine-cafe\project 2\menu.html');
+    orderList.src= document.URL('C:\Users\shahaji waditke\Desktop\sunshine-cafe\project 2\menu.html');
   }
   
   
@@ -57,3 +57,8 @@ function addtocart() {
     const Phone = document.getElementById("phone").value;
     console.log('Name Email Phone');
   }
+
+  function changeImage(imageName){
+    const mainImage = document.getElementById('main-img');
+      mainImage.src = imageName;
+}
