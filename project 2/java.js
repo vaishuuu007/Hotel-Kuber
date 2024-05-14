@@ -36,6 +36,13 @@ function addtocart() {
       alert("Please fill all required fields")
     }
   }
+
+
+  function order(){
+
+ let orderList = document.getElementById("order");
+    orderList = document.URL('C:\Users\shahaji waditke\Desktop\sunshine-cafe\project 2\menu.html');
+  }
   
   
   const listFromLocalStorage = localStorage.getItem("submit");
